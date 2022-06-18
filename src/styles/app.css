@@ -1,0 +1,27 @@
+.app {
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 5%;
+  row-gap: 1em;
+}
+
+.app__header {
+  background: -webkit-linear-gradient(#f08080 40%, #9370db);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 64px;
+  font-weight: normal;
+}
+
+.app__body {
+  background: white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+}

@@ -1,0 +1,23 @@
+.input {
+  border-bottom: 1px solid mediumpurple;
+  display: flex;
+  height: 60px;
+  padding: 0 10px 0 18px;
+  column-gap: 10px;
+}
+
+.input__field {
+  flex-grow: 1;
+}
+
+.input__create-btn {
+  border: 1px solid mediumpurple;
+  border-radius: 50%;
+  color: mediumpurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  align-self: center;
+}

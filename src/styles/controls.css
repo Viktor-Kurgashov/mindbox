@@ -1,0 +1,36 @@
+.controls {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+@media (max-width: 479px) {
+  .controls {
+    flex-direction: column;
+    padding: 10px 0;
+    row-gap: 0.5em;
+  }
+}
+
+@media (min-width: 480px) {
+  .controls {
+    justify-content: space-between;
+    padding: 0 18px;
+    height: 59px;
+  }
+}
+
+.controls__tabs-container {
+  display: flex;
+  column-gap: 0.5em;
+}
+
+.controls__tab {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 0 6px;
+}
+
+.controls__tab--current {
+  border-color: lightgrey;
+}

@@ -1,0 +1,36 @@
+.task {
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 10px 0 18px;
+  column-gap: 10px;
+}
+
+.task__title {
+  flex-grow: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.task__btn {
+  border: 1px solid lightseagreen;
+  border-radius: 50%;
+  color: lightseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+}
+
+.task__title--completed {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+.task__btn--completed {
+  border-color: lightgrey;
+  color: lightgray;
+}
